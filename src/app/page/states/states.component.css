@@ -1,0 +1,20 @@
+.hdr
+{
+    font-family:cursive;
+    text-align: center;
+    color: white;
+    height: 15%;
+}
+.nigg
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 10px;
+}
+.bg
+  {
+    background-image: url(https://images.unsplash.com/photo-1734485836409-ba4a2f822016?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzM3x8fGVufDB8fHx8fA%3D%3D);
+    background-position: relative;
+    height: 100vh;
+  }

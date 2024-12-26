@@ -1,0 +1,29 @@
+<div class="bg">
+  <div class="container">
+    <div class="exp">
+      <header>
+        <h1 class="m-5">Incredible India!</h1>
+      </header>
+      <section class="intro-section">
+        <div class="text">
+          <h2>Discover India's Tourism</h2>
+          <p>India, a land of vibrant cultures and stunning landscapes, invites you to explore its timeless beauty. From
+            the majestic Himalayas in the north to the serene backwaters of Kerala in the south, and from bustling
+            cities to tranquil deserts, India's diversity is unparalleled. Embark on a journey through history,
+            spirituality, and natural wonders.</p>
+        </div>
+        <owl-carousel-o [options]="customOptions">
+          <ng-container *ngFor="let slide of slidesStore">
+            <ng-template carouselSlide [id]="slide.id.toString()">
+              <img [src]="slide.src" [alt]="slide.alt">
+            </ng-template>
+          </ng-container>
+
+        </owl-carousel-o>
+        <div>Some tags after</div>
+
+      </section>
+    </div>
+  </div>
+
+</div>

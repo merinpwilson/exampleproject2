@@ -1,0 +1,14 @@
+
+<div class="bg">
+<h1 class="hdr text-center">STATES</h1>
+<div class="nigg">
+  @for (item of api.getStates(); track item.id) 
+  {
+    <div class="row">
+    <div class="col-4">
+      <app-card [data]="item"></app-card>
+    </div>
+  </div>
+  }
+</div>
+</div>
